@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    tools:showIn="navigation_view">
+
+
+    <group android:checkableBehavior="single">
+        <item
+            android:id="@+id/nav_tambahKegiatan"
+            android:icon="@android:drawable/ic_input_add"
+            android:title="@string/tambah_kegiatan"
+            />
+        <item
+            android:id="@+id/nav_lihatKegiatan"
+            android:icon="@drawable/ic_event_black_24dp"
+            android:title="Lihat Kegiatan"/>
+        <item
+            android:id="@+id/nav_lihatPencapaian"
+            android:icon="@drawable/ic_note_black_24dp"
+            android:title="@string/lihat_pencapaian"/>
+        <item
+            android:id="@+id/nav_setting"
+            android:icon="@drawable/ic_settings_black_24dp"
+            android:title="Pengaturan" />
+        <item
+            android:id="@+id/nav_info"
+            android:icon="@drawable/ic_info_black_24dp"
+            android:title="Tentang Kami" />
+        <item
+            android:id="@+id/nav_feedback"
+            android:icon="@drawable/ic_feedback_black_24dp"
+            android:title="Umpan Balik" />
+
+    </group>
+
+
+
+
+
+
+</menu>

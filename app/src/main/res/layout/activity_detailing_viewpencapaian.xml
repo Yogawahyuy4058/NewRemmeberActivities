@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:descendantFocusability="blocksDescendants"
+    android:padding="16dp"
+    tools:context="org.d3if.rememberactivities.detailingViewpencapaianActivity">
+
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Saya telah pergi ke sungai untuk memancing \n11 Maret 2018 "
+        android:textColor="@color/Black"
+        android:padding="16dp"
+        android:id="@+id/textView_detailView"
+        />
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:gravity="center">
+
+        <Button
+            android:layout_width="wrap_content"
+            android:layout_height="35dp"
+            android:text="@string/hapus"
+            android:layout_gravity="center"
+            android:id="@+id/btn_HapusdetailngViewPencapaian"/>
+    </LinearLayout>
+
+</LinearLayout>

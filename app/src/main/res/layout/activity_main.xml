@@ -1,0 +1,59 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="org.d3if.rememberactivities.secondActivity">
+
+
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:id="@+id/contentnya"
+            >
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="Welcome To Remember Activites"
+                    android:textSize="16sp"
+                    android:layout_centerHorizontal="true"
+                    android:layout_marginTop="50dp"
+                    android:textColor="#000000"
+                    android:id="@+id/welcome"
+                    />
+                <ImageView
+                    android:layout_width="90dp"
+                    android:layout_height="90dp"
+                    android:scaleType="center"
+                    android:src="@drawable/plus"
+                    android:layout_below="@id/welcome"
+                    android:layout_marginLeft="80dp"
+                    android:layout_marginTop="50dp"
+                    android:id="@+id/plus"/>
+                <ImageView
+                    android:layout_width="90dp"
+                    android:layout_height="95dp"
+                    android:scaleType="center"
+                    android:layout_below="@id/welcome"
+                    android:layout_toRightOf="@id/plus"
+                    android:src="@drawable/jam"
+                    android:layout_marginTop="50dp"
+                    android:layout_marginLeft="20dp"
+                    android:id="@+id/jam"/>
+                <ImageView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_below="@id/welcome"
+                    android:src="@drawable/mode"
+                    android:layout_marginTop="150dp"
+                    android:layout_marginLeft="150dp"
+                    android:id="@+id/seegoals"/>
+
+        </RelativeLayout>
+
+
+
+
+</RelativeLayout>

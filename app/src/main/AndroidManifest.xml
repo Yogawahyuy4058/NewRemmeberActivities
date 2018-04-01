@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="org.d3if.rememberactivities">
+
+    <application
+        android:allowBackup="true"
+        android:icon="@mipmap/ic_launcher_foregroundfix"
+        android:label="@string/app_name"
+        android:supportsRtl="true"
+        android:theme="@style/AppTheme">
+        <activity android:name=".detailingActivity"
+            android:label="@string/tambah_kegiatan"/>
+        <activity
+            android:name=".seeActivity"
+            android:label="@string/kegiatan_anda" />
+        <activity
+            android:name=".firstActivity"
+            android:label="@string/app_name"
+            android:theme="@style/AppTheme.NoActionBar">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+        <activity
+            android:name=".seegoalsActivity"
+            android:label="See Your Goals"
+            android:theme="@style/Theme.AppCompat.Light" />
+        <activity
+            android:name=".SettingsActivity"
+            android:label="@string/title_activity_settings" />
+        <activity
+            android:name=".PencapaianActivity"
+            android:label="@string/lihat_pencapaian" />
+        <activity android:name=".detailNotifikasiActivity"
+            android:label="@string/detail_notifikasi"/>
+        <activity android:name=".detailviewActivity"
+            android:label="@string/detail_Kegiatan"/>
+        <activity android:name=".detailingViewpencapaianActivity"
+            android:label="@string/detail_pencapaian"></activity>
+        <receiver android:name=".Alarmrecivier"
+            android:process=":remote"/>
+
+    </application>
+
+</manifest>
